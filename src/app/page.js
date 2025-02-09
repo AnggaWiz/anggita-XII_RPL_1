@@ -89,7 +89,7 @@ const App = () => {
             <h2 className={styles.sectionTitle}>Pembawa acara sekaligus ustadzah</h2>
             <div className={styles.speakerGrid}>
               <div className={styles.speakerCard}>
-              <FiUser  className={styles.speakerImage} />
+              <FiUser className={styles.speakerImage} />
 
                 <div className={styles.speakerContent}>
                   <h1 className={styles.speakerName}>Anggita Niaty Aminatun Zakia</h1>
