@@ -67,7 +67,7 @@ const App = () => {
             <div className={styles.eventDetails}>
               <div className={styles.detailCard}>
                 <FiClock className={styles.detailIcon} />
-                <div>
+                <div className={styles.themeText}>
                   <h3>Waktu Pelaksanaan</h3>
                   <p>Ahad, 12 Sya'ban 1446 H</p>
                   <p>09.00 WIB - Dzuhur</p>
@@ -76,7 +76,7 @@ const App = () => {
 
               <div className={styles.detailCard}>
                 <FiMapPin className={styles.detailIcon} />
-                <div>
+                <div className={styles.themeText}>
                   <h3>Tempat Acara</h3>
                   <p>SMK INFOKOM KOTA BOGOR</p>
                   <p>Jl. Letjen Ibrahim Adjie Kota Bogor</p>

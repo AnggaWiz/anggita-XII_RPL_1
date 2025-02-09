@@ -12,6 +12,10 @@
   overflow: hidden;
 }
 
+.themeText {
+  color: #2E2E2E;
+}
+
 .decorativeBorder {
   position: absolute;
   top: 0;
