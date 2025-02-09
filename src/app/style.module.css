@@ -226,7 +226,8 @@
 .speakerCard {
   display: flex;
   align-items: center;
-  background: white;
+  border: 2px solid var(--primary-pink);
+  background-color: ;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
   margin-bottom: 2rem;
@@ -240,12 +241,12 @@
 }
 
 .speakerImage {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-right: 4px solid #3498db;
-  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 100px;
+  height: 100px;
   margin-right: 2rem;
+  margin-left: 5rem;
+  padding: 5px;
+
 }
 
 .speakerContent {

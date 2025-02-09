@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './style.module.css';
 import { motion } from 'framer-motion';
 import InvitationSection from './component/text';
-import { FiArrowUp, FiClock, FiMapPin, FiBook, FiHeart } from 'react-icons/fi';
+import { FiArrowUp, FiClock, FiMapPin, FiBook, FiHeart, FiUser  } from 'react-icons/fi';
 
 const App = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -89,13 +89,10 @@ const App = () => {
             <h2 className={styles.sectionTitle}>Pembawa acara sekaligus ustadzah</h2>
             <div className={styles.speakerGrid}>
               <div className={styles.speakerCard}>
-                <img
-                  src="/images/gita.jpg"
-                  alt="Ust. Abdullah"
-                  className={styles.speakerImage}
-                />
+              <FiUser  className={styles.speakerImage} />
+
                 <div className={styles.speakerContent}>
-                  <h1 className={styles.speakerName}>Anggita Niaty Aminatun</h1>
+                  <h1 className={styles.speakerName}>Anggita Niaty Aminatun Zakia</h1>
                   <p className={styles.speakerTopic}>
                     Dari kelas XII RPL 1
                     "Memaknai Kembali Hakikat Ikhlas: Dari Konsep Teori hingga Praktik
